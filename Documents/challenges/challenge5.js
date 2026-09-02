@@ -1,6 +1,5 @@
-// Challenge 5: FILTER + MAP
-// Lọc các sản phẩm thuộc danh mục "Phụ kiện",
-// sau đó trả về một mảng chỉ chứa tên sản phẩm.
+// Challenge 5: MAP + FILTER kết hợp
+// Trả về mảng tên các sản phẩm thuộc category "Phụ kiện"
 
 function getAccessoryNames(productList) {
   return productList
@@ -36,7 +35,7 @@ const products = [
   },
 ];
 
-const result = getAccessoryNames(products);
+const accessoryNames = getAccessoryNames(products);
 
 console.log("Tên các sản phẩm thuộc danh mục Phụ kiện:");
-console.log(result);
+console.log(accessoryNames);
